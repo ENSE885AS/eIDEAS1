@@ -1,13 +1,13 @@
 <p>
-  <img align="left" src="./Documentaion/uofr_logo.jpg" alt="U of R logo" height="90px"/>
-  <img align="right" src="./Documentaion/ehealth_logo.png" alt="eHealth logo" height="90px"/>
+  <img align="left" src="./Documentation/uofr_logo.jpg" alt="U of R logo" height="90px"/>
+  <img align="right" src="./Documentation/ehealth_logo.png" alt="eHealth logo" height="90px"/>
 </p>
 
 <br/><br/><br/><br/>
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents** 
 
 - [Project Documentaion](#project-documentaion)
   - [1 INTRODUCTION](#1-introduction)
@@ -57,7 +57,7 @@ A tool was developed called Challenge 100 which unfortunately didn’t succeed i
 
 An initiative has been taken to re-brand the tool to “eIDEAS” and re-envisioning the people, process, and technology interactions through a current and future state process mapping activity. Through this, the team assessed and redeveloped the design, delivery, and tracking methods to support eHealth's ongoing journey to transform the way they work. eHS wants the re-imagined eIDEAS tool to empower a sustainable internal culture of innovation, better enabling the sharing of ideas and the visibility of individual and collaborative work. The focus of eIDEAS is to begin with an idea at the local level (maximum of one work unit), visualizing the work from following key activities.
 
-![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentaion/Diagrams/aactivites.png)
+![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/activites.png)
 
 ### 1.4 Assumptions and Constraints
 Assumptions are future situations beyond the control of the project, whose outcomes influence the success of a project. Examples of assumptions include: availability of a technical platform, legal changes and policy decisions.
@@ -73,13 +73,13 @@ The document is divided into three main sections, an Introduction shedding light
 ## 2 SYSTEM DESIGN
 
 ### 2.1	Context Diagram
-![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentaion/Diagrams/Context.png)
+![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/Context.png)
 
 ### 2.2	Data Flow Diagram
-![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentaion/Diagrams/DFD.png)
+![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/DFD.png)
 
 ### 2.3	Logical Data Model Diagram
-![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentaion/Diagrams/LogicalDataModel.png)
+![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/LogicalDataModel.png)
 
 ## 3 FUNCTIONAL REQUIREMENTS
 

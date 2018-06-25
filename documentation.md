@@ -5,9 +5,11 @@
 
 <br/><br/><br/><br/>
 
+---
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents** 
+**Table of Contents**
 
 - [Project Documentaion](#project-documentaion)
   - [1 INTRODUCTION](#1-introduction)
@@ -18,17 +20,17 @@
       - [1.4.1 Constraints](#141-constraints)
     - [1.5 Document Overview](#15-document-overview)
   - [2 SYSTEM DESIGN](#2-system-design)
-    - [2.1	Context Diagram](#21%09context-diagram)
-    - [2.2	Data Flow Diagram](#22%09data-flow-diagram)
-    - [2.3	Logical Data Model Diagram](#23%09logical-data-model-diagram)
+    - [2.1 Context Diagram](#21-context-diagram)
+    - [2.2 Data Flow Diagram](#22-data-flow-diagram)
+    - [2.3 Logical Data Model Diagram](#23-logical-data-model-diagram)
   - [3 FUNCTIONAL REQUIREMENTS](#3-functional-requirements)
   - [4 OTHER REQUIREMENTS](#4-other-requirements)
     - [4.1 Interface Requirements](#41-interface-requirements)
       - [4.1.1 Hardware Interfaces](#411-hardware-interfaces)
       - [4.1.2 Software Interfaces](#412-software-interfaces)
-    - [4.2	Data Conversion Requirements](#42%09data-conversion-requirements)
-    - [4.3	Hardware/Software Requirements](#43%09hardwaresoftware-requirements)
-    - [4.4	Operational Requirements](#44%09operational-requirements)
+    - [4.2 Data Conversion Requirements](#42-data-conversion-requirements)
+    - [4.3 Hardware/Software Requirements](#43-hardwaresoftware-requirements)
+    - [4.4 Operational Requirements](#44-operational-requirements)
       - [4.4.1 Security and Privacy](#441-security-and-privacy)
       - [4.4.2 Audit Trail](#442-audit-trail)
       - [4.4.3 Reliability](#443-reliability)
@@ -72,13 +74,13 @@ The document is divided into three main sections, an Introduction shedding light
 
 ## 2 SYSTEM DESIGN
 
-### 2.1	Context Diagram
+### 2.1 Context Diagram
 ![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/Context.png)
-
-### 2.2	Data Flow Diagram
+---
+### 2.2 Data Flow Diagram
 ![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/DFD.png)
-
-### 2.3	Logical Data Model Diagram
+---
+### 2.3 Logical Data Model Diagram
 ![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/LogicalDataModel.png)
 
 ## 3 FUNCTIONAL REQUIREMENTS
@@ -97,16 +99,16 @@ A web server application will be able to serve any authenticated user over the i
 #### 4.1.2 Software Interfaces
 The web application will interface with employee accounts (Active directory list) for authentication. Also, the web application will interface with a database (mysql or NoSql). NoSql provides search like queries to look for some words under idea column.
 
-### 4.2	Data Conversion Requirements
+### 4.2 Data Conversion Requirements
 Data will be stored in database as plain text except large words can be replaced by one character.
 
-### 4.3	Hardware/Software Requirements
+### 4.3 Hardware/Software Requirements
 The web application will require following hardware and software needs.
 2.0 GHz CPU speed, 1 GB of RAM, 64 GB of HDD.
 Microsoft Windows 10 or later, Mac OS.
 Internet explorer 11, Mozilla Firefox, Google chrome or Safari internet browser.
 
-### 4.4	Operational Requirements
+### 4.4 Operational Requirements
 The web application will ask for dialogue prompt when data is not saved before proceeding to another screen. When the user types in some predetermined values (e.g team name, staff name), the system will generate suggestion list to choose the rest of the value. Any disabled field will be provided with a description of the reason behind it.
 
 #### 4.4.1 Security and Privacy

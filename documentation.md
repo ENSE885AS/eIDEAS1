@@ -7,13 +7,10 @@
 
 ---
 
-<h1> Project Documentation </h1>
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [ Project Documentation ](#project-documentation)
 - [1. INTRODUCTION](#1-introduction)
   - [1.1.	Purpose](#11%09purpose)
   - [1.2.	Scope](#12%09scope)
@@ -27,9 +24,7 @@
   - [2.5.	High-Fidelity Prototyping](#25%09high-fidelity-prototyping)
 - [3. System Design](#3-system-design)
   - [3.1. Context Diagram](#31-context-diagram)
-  - [*](#)
   - [3.2. Data Flow Diagram](#32-data-flow-diagram)
-  - [*](#-1)
   - [3.3. Logical Data Model Diagram](#33-logical-data-model-diagram)
 - [4. Functional Requirements](#4-functional-requirements)
   - [4.1.	Login](#41%09login)
@@ -43,6 +38,7 @@
   - [4.9.	Subscribe and View Subscribed Ideas](#49%09subscribe-and-view-subscribed-ideas)
   - [4.10. Give feedback](#410-give-feedback)
   - [4.11.Add New Idea and View My Ideas](#411add-new-idea-and-view-my-ideas)
+  - [4.12. Give Actions](#412-give-actions)
 - [5. Non-Functional / Other Requirements](#5-non-functional--other-requirements)
   - [5.1. Interface Requirements](#51-interface-requirements)
   - [5.2.	Data Conversion Requirements](#52%09data-conversion-requirements)
@@ -99,12 +95,15 @@ Finally, this phase will produce informative decisions based on our previous use
 # 3. System Design
 
 ## 3.1. Context Diagram
+
 ![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/Context.png)
----
+
 ## 3.2. Data Flow Diagram
+
 ![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/DFD.png)
----
+
 ## 3.3. Logical Data Model Diagram
+
 ![alt text](https://raw.githubusercontent.com/semo94/eIDEAS1/master/Documentation/Diagrams/LogicalDataModel.png)
 
 # 4. Functional Requirements
@@ -200,22 +199,32 @@ Team members only should be able to add a new idea of an internal business meeti
   •	eIDEAS will save the idea information in its database, populate the new idea in the system, and redirect the team members to their “My Ideas” tab.
   •	From the lift side bar, team members can click on “My Ideas” tab in order to view, interact, and give actions on their own ideas.
 
-##4.12.	Give Actions
+## 4.12. Give Actions
 Team members, team leader and managers should be able to give actions on certain ideas based on their own privileges. Each team member can only act on the ideas that their own, while managers and team leaders have the privilege to give actions on other team members ideas. That Actions might differ and restricted based on the type of the user as well as the current idea’s status.  
+
 For the team members:
+
   •	Users should click on the “My Ideas” tab from the left side bar to view their own ideas.
   •	Users can click on the action drop down button which located on the top right side of each idea box.
   •	Users can choose their willing action from the available options in the actions list.
   •	If the idea still in the “Pending Status”, users can edit, park, decline, delete, and plan the idea as following:
-    o	Edit  after users clicked on the “Edit” option, eIDEAS system will prompt a screen that contains the current idea’s information and edit textboxes. Users should fill the text boxed with the new information then click on the “Submit” button. The eIDEAS system will updated its database with the newest values, reflect that on the other screens, and redirect the users back to their “My Ideas” tab.
-    o	Decline  after the users clicked on “Decline” option, eIDEAS system will prompt a screen that contains idea’s owner name, the idea’s number, and an edit text box. The users should write down the reasons behind declining their own idea then click on the “Submit” button. The eIDEAS system will update its database value, reflect the new idea status on the other screens, and redirect users back to their “My Ideas”.
-    o	Park  after the users clicked on “Park” option, eIDEAS system will prompt a screen that contains idea’s owner name, the idea’s number, and an edit text box. Users should write down why this idea will be moved to the parking lot then click on the “Submit” button. eIDEAS system will update its database values, changing this idea status and reflected on other screen, and redirect the users back to their “My Ideas” tab.
-    o	Delete  when the users click on “Delete” option, eIDEAS system will prompt a popup screen to confirm this action, if users click on confirm, the idea will be removed from the system database, reflected on other screens, and redirect the users back to their “My Ideas” tab.
-    o	Plan  Only when the idea has been approved by the manager, “Plan” option will be activated to be chosen from the ideas submitter. After the users clicked on “Plan” option, eIDEAS system will prompt a screen that contains idea’s owner name, the idea’s number, and an edit text box. Users should fill in their plan details and how this idea will be an improvement to their work environment then click on the “Submit” button. eIDEAS system will update its database records, change and reflect the idea’s status on other screens, and redirect back the users to “My Ideas”.
+
+    o	Edit: after users clicked on the “Edit” option, eIDEAS system will prompt a screen that contains the current idea’s information and edit textboxes. Users should fill the text boxed with the new information then click on the “Submit” button. The eIDEAS system will updated its database with the newest values, reflect that on the other screens, and redirect the users back to their “My Ideas” tab.
+
+    o	Decline: after the users clicked on “Decline” option, eIDEAS system will prompt a screen that contains idea’s owner name, the idea’s number, and an edit text box. The users should write down the reasons behind declining their own idea then click on the “Submit” button. The eIDEAS system will update its database value, reflect the new idea status on the other screens, and redirect users back to their “My Ideas”.
+
+    o	Park: after the users clicked on “Park” option, eIDEAS system will prompt a screen that contains idea’s owner name, the idea’s number, and an edit text box. Users should write down why this idea will be moved to the parking lot then click on the “Submit” button. eIDEAS system will update its database values, changing this idea status and reflected on other screen, and redirect the users back to their “My Ideas” tab.
+
+    o	Delete: when the users click on “Delete” option, eIDEAS system will prompt a popup screen to confirm this action, if users click on confirm, the idea will be removed from the system database, reflected on other screens, and redirect the users back to their “My Ideas” tab.
+
+    o	Plan: Only when the idea has been approved by the manager, “Plan” option will be activated to be chosen from the ideas submitter. After the users clicked on “Plan” option, eIDEAS system will prompt a screen that contains idea’s owner name, the idea’s number, and an edit text box. Users should fill in their plan details and how this idea will be an improvement to their work environment then click on the “Submit” button. eIDEAS system will update its database records, change and reflect the idea’s status on other screens, and redirect back the users to “My Ideas”.
+
   •	In case the idea is on “Parked Status”, users can plan, edit, decline and delete at any time.
   •	In case the idea is on “Declined Status”, users can only take a delete action.
   •	In case the idea is on “Plan Status”, users can only park or delete this idea.
+
 For the managers/team leaders:
+
   •	Users can give actions on any idea coming from one of their team members.
   •	The actions that could be taken are: approve, decline, park, delete, and do the idea which is one of the (PDCA Procedure).
   •	Note that “Do” feature is not represented in the current accomplished prototype.

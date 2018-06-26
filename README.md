@@ -35,8 +35,10 @@ all of the diagrams that have been used in the writing process.
 In the "Mockups" folder, you can find the latest Hi-Fidelity prototype alongside with a pdf version
 of it. Moreover, you can view the old Low-Fidelity prototype that's been produced before the user
 evaluation milestone. In order to access the bmpr file for the system mockups please install the
-Balsamiq tool on your device from [here](https://balsamiq.com/download/)
+Balsamiq tool on your device from the linke below:
 ```
+[Download Balsamiq](https://balsamiq.com/download/)
+
 
 ```
 In the "Usability Evaluation" folder, you can find all files that are related to this milestone which
